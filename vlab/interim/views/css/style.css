@@ -1,0 +1,340 @@
+
+.header img{
+  border:1px solid;
+  border-color: #57068C;
+  height:70%;
+  width:100%;
+  margin-left:-15px;
+  }
+  
+.text-center {
+  text-align: center;
+}
+
+.header h1{
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 300;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  margin-left: -25px;
+  font-family: -webkit-body;
+  
+}
+.vlab {
+  padding-left: 15%;
+}
+.navc a, .navc li{
+ 
+
+  color: #FFF;
+  font-size: 17px;
+  
+  font-family: -webkit-body;
+  padding-right: 10px;
+  padding-bottom: 0%;
+}
+
+.main_header {
+  background-color: #57068C;
+}
+
+.header a:hover{
+  
+    color: #FFF;
+    text-decoration: underline;
+
+}
+
+.header ul{
+  padding-bottom: 0%;
+}
+ 
+.icons {
+  border-right: 2px solid #BDBDBD;
+}
+.wiki {
+  border-right: 2px solid #BDBDBD;
+}
+.footpills{
+	text-align: center;
+}
+
+.content {	
+padding:25px;
+}
+
+.header {
+/*background-image: url("../images/banner.png");
+background-repeat: no-repeat;
+background-position: top;
+height: 100px; 
+padding-top:0px;*/
+background-color: #57068c;
+/*background-origin: border-box;*/
+
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+
+.content-item {
+ 
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  height: 80px;
+  margin: 20px auto;
+  overflow: hidden;
+  position: relative;
+  width: 95px;
+}
+
+.content-item.item1 {
+background: url(/vlab/images/ubuntu_icon.png);	
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.content-item.item2 {
+background: url(/vlab/images/cisco-logo.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+}
+.content-item.item3 {
+background: url(/vlab/images/NSF.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.content-item.item4 {
+background: url(/vlab/images/xen_gen_logo.gif);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.content-item.item5 {
+background: url(/vlab/images/navicat.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.content-item.item6 {
+background: url(/vlab/images/ansi.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.content-item.item7 {
+background: url(/vlab/images/postgresql.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.content-item.item8 {
+background: url(/vlab/images/PHP_Logo.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.content-item.item9 {
+background: url(/vlab/images/isis.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+
+.content-item .overlay {
+
+  border-left: 48px solid transparent;
+  bottom: 0;
+  height: 0;
+  opacity: .95;
+  position: absolute;
+  right: 0;
+  text-indent: -9999px;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  width: 0;
+}
+.content-item .overlay.item1 {
+	  border-bottom: 48px solid #ff4b0f;
+}
+.content-item .overlay.item2 {
+	  border-bottom: 48px solid #BD0000;
+}
+.content-item .overlay.item3 {
+	  border-bottom: 48px solid #004A84;
+}
+.content-item .overlay.item4 {
+	  border-bottom: 48px solid #A2A2A2;
+}
+.content-item .overlay.item5 {
+	  border-bottom: 48px solid #1F7B85;
+}
+.content-item .overlay.item6 {
+	  border-bottom: 48px solid #000000;
+}
+.content-item .overlay.item7 {
+	  border-bottom: 48px solid #F5F7FA;
+}
+.content-item .overlay.item8 {
+	  border-bottom: 48px solid #6082BB;
+}
+.content-item .overlay.item9 {
+	  border-bottom: 48px solid #6FC62F;
+}
+
+
+
+.content-item:hover .overlay {
+ 
+  border-left: 800px solid transparent;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.content-item:hover .overlay.item1 {
+	 border-bottom: 800px solid #DD4814;
+}
+.content-item:hover .overlay.item2 {
+	 border-bottom: 800px solid #BD0000;
+}
+.content-item:hover .overlay.item3 {
+	 border-bottom: 800px solid #004A84;
+}
+.content-item:hover .overlay.item4 {
+	 border-bottom: 800px solid #A2A2A2;
+}
+.content-item:hover .overlay.item5 {
+	 border-bottom: 800px solid #1F7B85;
+}
+.content-item:hover .overlay.item6 {
+	 border-bottom: 800px solid #000000;
+}
+.content-item:hover .overlay.item7 {
+	 border-bottom: 800px solid #F5F7FA;
+}
+.content-item:hover .overlay.item8 {
+	 border-bottom: 800px solid #6082BB;
+}
+.content-item:hover .overlay.item9 {
+	 border-bottom: 800px solid #6FC62F;
+}
+
+.content-item .corner-overlay-content {
+  bottom: 10px;
+  color: #333;
+  position: absolute;
+  right: 10px;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.content-item:hover .corner-overlay-content {
+  opacity: 0;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.content-item .overlay-content {
+  bottom: 0;
+  color: #333;
+  left: 0;
+  opacity: 0;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ea
+  se-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.content-item .overlay-content.item6 {
+	color: #FFFFFF;
+}
+
+
+.content-item .overlay-content h2 {
+  border-bottom: 1px solid #333;
+  padding: 0 0 5px;
+}
+.content-item:hover .overlay-content {
+  opacity: 1;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  -moz-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+#footer{background:#f9f9f9 url(/vlab/images/dashes_gray.png)
+repeat center top;
+position:relative;
+height:100px; } /*  padding:36px 0 26px 0;position:relative;height:290px;margin-top:-352px;}
+#footer-top{border-bottom:1px solid #eee;padding-bottom:15px;margin-bottom:40px;}*/
+#engineering-is{
+  padding-left:9%;
+}
+#engineering-is h4{font-size:1.5em !important;text-transform:uppercase;}
+
+#engineering-is a
+{
+  color:#57068c !important;
+}
+#engineering-is .is{
+  text-transform:lowercase;
+  font-weight:300;
+  font-style:italic;
+  }
+#engineering-is .tagname{
+  color:#7bc143;
+  }
+#social-links {
+  padding-right:18%;
+  margin-top: -45px;
+}
+#social-links strong{
+    margin-right:10px;
+  }
+#social-links span{
+  color:#7bc143;
+  }
+#footer-top #social-links p{
+  text-align:right;
+  margin:-6px 0 0 0;
+  }
+#footer-top a.soc-icons{
+  vertical-align:middle;
+  margin-right:2px;
+  display:inline-block;
+  text-indent:9em;
+  overflow:hidden;height:32px;width:32px;
+  background:url('/vlab/images/social_icons_v2_medium.png') no-repeat left top;
+  }
+  #footer-top a.soc-icons:hover{opacity:0.6;}
+  #footer-top a.google-plus{background-position:-100px 1px;}
+  #footer-top a.facebook{background-position:-34px 0px;}
+  #footer-top a.twitter{background-position:0px 0px;}
+  #footer-top a.vimeo{background-position:-134px 0px;}
+  #footer-top a.youtube{background-position:-168px 0px;}
+  #footer h4{color:#7bc143;color:#333;font-size:0.875rem;line-height:1em;margin:0 0 16px 0;}
+  #footer ul{padding:0;color:#999;font-size:0.857rem;margin:0 0 28px 0;list-style:none;list-style-image:none;}
+  #footer ul,  #footer a{color:#666;}#footer ul strong{color:#333;}
+  #footer ul span,#footer address span{color:#aaa;}
+  #footer ul .label{text-transform:uppercase;font-size:0.8333em;}
+  #footer ul a:hover{text-decoration:underline;}
+  #footer address{color:#666;font-size:0.786rem;font-style:normal;}
+  #footer address strong{margin-right:10px;}
+  #footer address span{margin-left:10px;}
+  #footer .copy{color:#aaa;font-size:0.786rem;}
